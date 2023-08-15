@@ -13,11 +13,22 @@
     color: #555;
     margin: 5px 0;
   }
+  .links{
+    padding-left: 20%;
+    padding-bottom: 3%;
+  }
+  .search{
+    padding-left: 5%;
+  }
    .resize
   .title {
     font-size:30px;
     font-weight: bold;
     color: #333;
+  }
+  .Navbar{
+    background-color: #5eddc2;
+    display: grid;
   }
   img{
     display: flex;

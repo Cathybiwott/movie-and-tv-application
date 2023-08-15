@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './style.css';
 import { searchMovies } from "../utils/utilities";
+
 const Navigation= () => {
   const [searchValue, setSearchValue] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -15,7 +16,7 @@ const Navigation= () => {
       <nav className="nav">
         <div>
           <h1 className="logo">
-            M<span>oo</span>vie
+            M<span>o</span>vie
           </h1>
         </div>
         <div className="search">
